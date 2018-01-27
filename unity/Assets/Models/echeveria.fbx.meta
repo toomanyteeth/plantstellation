@@ -11,6 +11,8 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: echeveria
+    4300002: Leaf
+    4300004: Baked
   externalObjects: {}
   materials:
     importMaterials: 1

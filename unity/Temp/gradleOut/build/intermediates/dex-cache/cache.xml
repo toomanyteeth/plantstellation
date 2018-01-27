@@ -12,30 +12,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/meena/.android/build-cache/acbd9988e77acf749e7c5710a68fbfc50a0ebdd0/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="e29373b760f2999cd878625efe4641edd156a3d0">
-        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_a2be71dbfdcd274ce9a3908d14f2c3b6e2204756.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/meena/.android/build-cache/acbd9988e77acf749e7c5710a68fbfc50a0ebdd0/output/jars/libs/Vuforia.jar"
+        jar="/Users/meena/.android/build-cache/a011fb00782b978f2c967baa20f5377775bb41b5/output/jars/libs/Vuforia.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="53094572566d88f826439518bd3ff774b3ed36cb">
-        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/Vuforia_d27ed33ffa106399b6d2cf37b213474ecc0c0a8a.jar" />
+        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/Vuforia_ca0b5e42d7e6e67af8af50da04d8f38e8322ea96.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/meena/.android/build-cache/acbd9988e77acf749e7c5710a68fbfc50a0ebdd0/output/jars/libs/VuforiaUnityPlayer.jar"
+        jar="/Users/meena/.android/build-cache/a011fb00782b978f2c967baa20f5377775bb41b5/output/jars/libs/VuforiaUnityPlayer.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="1e5c98f1d2f1973f9a08b7849f319bcb135fe8c3">
-        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/VuforiaUnityPlayer_317bcfaf0d6eaaa858716ed89e4050af8b8e98ab.jar" />
+        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/VuforiaUnityPlayer_6b31f2783553692ee6baf56e0ef81132f2499e4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/meena/.android/build-cache/a011fb00782b978f2c967baa20f5377775bb41b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e29373b760f2999cd878625efe4641edd156a3d0">
+        <dex dex="/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_6f80f1a18bc7d3d475600b6fc5ebbc5ca31b86b9.jar" />
     </item>
 
 </items>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">unity</string>
+    <string name="app_name">plantstellation</string>
     <style name="UnityThemeSelector" parent="android:Theme.Light.NoTitleBar.Fullscreen">
 </style>
     <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">

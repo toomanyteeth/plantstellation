@@ -7,8 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 42,
-                    "endOffset": 93
+                    "endColumn": 52,
+                    "endOffset": 103
                 },
                 "from": {
                     "file": "/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/src/main/res/values/strings.xml",
@@ -16,8 +16,8 @@
                         "startLine": 2,
                         "startColumn": 2,
                         "startOffset": 53,
-                        "endColumn": 40,
-                        "endOffset": 91
+                        "endColumn": 50,
+                        "endOffset": 101
                     }
                 }
             },
@@ -25,10 +25,10 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 98,
+                    "startOffset": 108,
                     "endLine": 4,
                     "endColumn": 8,
-                    "endOffset": 191
+                    "endOffset": 201
                 },
                 "from": {
                     "file": "/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/src/main/res/values/styles.xml",
@@ -46,10 +46,10 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 196,
+                    "startOffset": 206,
                     "endLine": 8,
                     "endColumn": 8,
-                    "endOffset": 418
+                    "endOffset": 428
                 },
                 "from": {
                     "file": "/Users/meena/Documents/plantstellation/unity/Temp/gradleOut/src/main/res/values/styles.xml",
