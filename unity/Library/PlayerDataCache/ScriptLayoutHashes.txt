@@ -1,6 +1,6 @@
 Android
 SceneListBegin?
-Assets/main.unity
+Assets/Scenes/main.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -281,3 +281,5 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
+fa7706da97a648f66fd7d75cc103c8f8 Assembly-CSharp.dll:.MakeBeams
+201b7f53572fcffafdf974d2e1172dfa Assembly-CSharp.dll:.ObjectDistanceCalculator
