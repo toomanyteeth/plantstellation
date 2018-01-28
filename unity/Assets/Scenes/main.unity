@@ -410,21 +410,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1205520763}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1c024b34f0484e659d3d055ed1ff286, type: 3}
+  m_Script: {fileID: 11500000, guid: 36d000d4e06bb44ca8096e41dbb4ee1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  objectInScene: 
   objects:
   - {fileID: 1379214391}
   - {fileID: 1197204769}
-  - {fileID: 0}
 --- !u!4 &1205520765
 Transform:
   m_ObjectHideFlags: 0
@@ -802,6 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tracked: 0
 --- !u!114 &1698172605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -919,6 +912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tracked: 0
 --- !u!114 &1833279694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1230,6 +1224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tracked: 0
 --- !u!23 &2117548093
 MeshRenderer:
   m_ObjectHideFlags: 0

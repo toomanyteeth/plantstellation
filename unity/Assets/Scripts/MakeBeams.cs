@@ -4,30 +4,27 @@ using UnityEngine;
 
 public class MakeBeams : MonoBehaviour {
 
-	float[,] distances;
+	private ObjectManager objectManager;
 	public GameObject beamPrefab;
 	public float maxBeamDistance;
 	private GameObject[,] beams;
-	private GameObject[] objects;
 
 	// Use this for initialization
 	void Start () {
 		GameObject main = GameObject.Find("Main");
-		ObjectDistanceCalculator odc = main.GetComponent<ObjectDistanceCalculator>();
-		distances = odc.distances;
-		beams = new GameObject[distances.GetLength(0), distances.GetLength(1)];
-		objects = odc.objects;
+		objectManager = main.GetComponent<ObjectManager>();
+		beams = new GameObject[objectManager.distances.GetLength(0), objectManager.distances.GetLength(1)];
 	}
 
 	// Update is called once per frame
 	void Update () {
-		for(int i = 0; i < distances.GetLength(0); i++) {
-			for(int j = 0; j < distances.GetLength(1); j++) {
-				if(distances[i, j] != null && distances[i, j] > 0 && distances[i, j] < maxBeamDistance){
+		for(int i = 0; i < objectManager.distances.GetLength(0); i++) {
+			for(int j = 0; j < objectManager.distances.GetLength(1); j++) {
+				if(objectManager.distances[i, j] != null && objectManager.distances[i, j] > 0 && objectManager.distances[i, j] < maxBeamDistance){
 					if(beams[i, j] == null) {
 						beams[i, j] = Instantiate(beamPrefab, transform);
 					}
-					beams[i, j].GetComponent<LineRenderer>().SetPositions(new Vector3[] {objects[i].transform.position, objects[j].transform.position});
+					beams[i, j].GetComponent<LineRenderer>().SetPositions(new Vector3[] {objectManager.objects[i].transform.position, objectManager.objects[j].transform.position});
 				} else if (beams[i, j] != null) {
 					Destroy(beams[i, j]);
 				}
