@@ -6,12 +6,27 @@ ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: Lamp
+    100006: Pot
+    100008: Soil
     400000: //RootNode
+    400002: Camera
+    400004: Lamp
+    400006: Pot
+    400008: Soil
+    2000000: Camera
     2100000: No Name
     2300000: //RootNode
+    2300002: Pot
+    2300004: Soil
     3300000: //RootNode
+    3300002: Pot
+    3300004: Soil
     4300000: Cylinder
     4300002: Pot
+    4300004: Soil
+    10800000: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1

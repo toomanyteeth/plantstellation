@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Beam.cs" />
      <Compile Include="Assets\Scripts\MakeBeams.cs" />
      <Compile Include="Assets\Scripts\ObjectManager.cs" />
+     <Compile Include="Assets\StartButton.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
      <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
      <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
