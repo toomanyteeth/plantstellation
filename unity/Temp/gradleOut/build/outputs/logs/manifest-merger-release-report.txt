@@ -31,11 +31,11 @@ ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/sr
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:3:135-160
 application
 ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:4:3-15:17
-MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:19:5-30:19
+MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:19:5-30:19
 	android:label
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:4:92-124
 	android:debuggable
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:19:18-44
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:19:18-44
 	android:icon
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:4:58-91
 	android:banner
@@ -98,17 +98,17 @@ ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/sr
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:16:17-49
 uses-permission#android.permission.INTERNET
 ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:17:3-65
-MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:14:5-67
+MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:17:20-62
 uses-permission#android.permission.CAMERA
 ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:18:3-63
-MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:15:5-65
+MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:15:5-65
 	android:name
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:18:20-60
 uses-feature#android.hardware.camera
 ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:19:3-83
-MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:12:5-60
+MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:12:5-60
 	android:required
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:19:56-80
 		MERGED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:19:56-80
@@ -146,7 +146,7 @@ ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/sr
 		ADDED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:24:17-80
 uses-sdk
 INJECTED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:8:5-10:41
+MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
 		INJECTED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml
 		INJECTED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml
@@ -154,24 +154,24 @@ MERGED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be2
 		INJECTED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml
 		INJECTED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:16:5-79
+ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:16:22-76
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:16:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:17:5-81
+ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:17:22-78
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:17:22-78
 meta-data#com.google.ar.core
-ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:22:9-24:40
+ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:22:9-24:40
 	android:value
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:24:13-37
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:23:13-46
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:23:13-46
 uses-library#com.osterhoutgroup.api.ext
-ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:27:9-29:40
+ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:27:9-29:40
 	android:required
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:29:13-37
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/AndroidManifest.xml:28:13-54
+		ADDED from [:VuforiaWrapper:] /Users/meena/.android/build-cache/86248ea3b67d7c284aa026c6c7e6de067b434097/output/AndroidManifest.xml:28:13-54
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 IMPLIED from /Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/src/main/AndroidManifest.xml:2:1-25:12 reason: com.vuforia.engine.ext requested WRITE_EXTERNAL_STORAGE
