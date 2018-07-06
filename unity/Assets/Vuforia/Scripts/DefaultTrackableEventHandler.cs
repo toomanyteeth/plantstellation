@@ -10,22 +10,20 @@ using UnityEngine;
 using Vuforia;
 
 /// <summary>
-///     A custom handler that implements the ITrackableEventHandler interface.
+/// A custom handler that implements the ITrackableEventHandler interface.
+/// 
+/// Changes made to this file could be overwritten when upgrading the Vuforia version. 
+/// When implementing custom event handler behavior, consider inheriting from this class instead.
 /// </summary>
 public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandler
 {
-
-    // improve this later rofl
-    [HideInInspector]
-    public bool tracked;
-
-    #region PRIVATE_MEMBER_VARIABLES
+    #region PROTECTED_MEMBER_VARIABLES
 
     protected TrackableBehaviour mTrackableBehaviour;
 
-    #endregion // PRIVATE_MEMBER_VARIABLES
+    #endregion // PROTECTED_MEMBER_VARIABLES
 
-    #region UNTIY_MONOBEHAVIOUR_METHODS
+    #region UNITY_MONOBEHAVIOUR_METHODS
 
     protected virtual void Start()
     {
@@ -34,7 +32,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
     }
 
-    #endregion // UNTIY_MONOBEHAVIOUR_METHODS
+    protected virtual void OnDestroy()
+    {
+        if (mTrackableBehaviour)
+            mTrackableBehaviour.UnregisterTrackableEventHandler(this);
+    }
+
+    #endregion // UNITY_MONOBEHAVIOUR_METHODS
 
     #region PUBLIC_METHODS
 
@@ -54,7 +58,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             OnTrackingFound();
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
-                 newStatus == TrackableBehaviour.Status.NOT_FOUND)
+                 newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
@@ -70,12 +74,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     #endregion // PUBLIC_METHODS
 
-    #region PRIVATE_METHODS
+    #region PROTECTED_METHODS
 
     protected virtual void OnTrackingFound()
     {
-        tracked = true;
-
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
@@ -96,8 +98,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     protected virtual void OnTrackingLost()
     {
-        tracked = false;
-
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
@@ -115,5 +115,5 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             component.enabled = false;
     }
 
-    #endregion // PRIVATE_METHODS
+    #endregion // PROTECTED_METHODS
 }
