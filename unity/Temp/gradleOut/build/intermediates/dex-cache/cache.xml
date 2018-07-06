@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/libs/unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="453f7ef63f34c4cfc7c6e10ab39c61f637b7855c">
+        <dex dex="/Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/unity-classes_b20b8a598e67bbe2b18bb5549fbf7a946850d900.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/jars/libs/Vuforia.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dc10c1b1e48196f12f0ebb5103ae4dc156ba9b2e">
+        <dex dex="/Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/Vuforia_497c50a5a4cfeb9021a5497f3dd55bdca50a56ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/jars/libs/VuforiaUnityPlayer.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="31de12dfd4ff409d57dd52142cd5ebe1c1eee803">
+        <dex dex="/Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/VuforiaUnityPlayer_f72fcc30945a331c4d85bec201511c84fb5d28f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/meena/.android/build-cache/dce7fa860376be23bab71c13bd04c5c02d23ce1f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d46bca2836cb936675a51f8d54e3402015d835cb">
+        <dex dex="/Users/meena/Documents/GitHub/plantstellation/unity/Temp/gradleOut/build/intermediates/pre-dexed/release/classes_aa6f324901afcf5d218c402bdce755b29773036c.jar" />
+    </item>
+
+</items>
