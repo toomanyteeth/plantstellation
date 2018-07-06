@@ -20,7 +20,7 @@ public class BeamManager : MonoBehaviour {
 	void Update () {
 		for(int i = 0; i < objectManager.objects.Length; i++) {
 			for(int j = 0; j < objectManager.objects.Length; j++) {
-				if(objectManager.distances[i, j] != null && objectManager.distances[i, j] > 0 && objectManager.distances[i, j] < maxBeamDistance){
+				if(objectManager.distances[i, j] > 0 && objectManager.distances[i, j] < maxBeamDistance){
 					if(!beams[i, j]) {
 						beams[i, j] = Instantiate(beamPrefab, transform);
 					}
