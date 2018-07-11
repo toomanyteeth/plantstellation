@@ -141,9 +141,9 @@ Material:
     - _Nearest_Distance: -2
     - _OUTLINE: 0
     - _Offset_Z: 0
-    - _Outline: 0.002
+    - _Outline: 0.025
     - _OutlineDot: 0.25
-    - _OutlineExtrusion: 0
+    - _OutlineExtrusion: 0.025
     - _Outline_Width: 100
     - _RimLight: 0
     - _RimLight_FeatherOff: 0
@@ -153,6 +153,7 @@ Material:
     - _Rotate_NormalMapForMatCapUV: 0
     - _Set_SystemShadowsToBase: 1
     - _ShadeColor_Step: 0.4
+    - _Specularity: 1
     - _StencilNo: 1
     - _TessEdgeLength: 5
     - _TessExtrusionAmount: 0
