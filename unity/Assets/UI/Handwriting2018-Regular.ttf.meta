@@ -1,7 +1,5 @@
 fileFormatVersion: 2
-guid: e899e445555dd4c24891e4e289ca930e
-timeCreated: 1517117911
-licenseType: Free
+guid: 718aa2cd730a37549919b7cad45b9a45
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,14 +8,15 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Kubasta
+  fontName: Handwriting 2018
   fontNames:
-  - Kubasta
+  - Handwriting 2018
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

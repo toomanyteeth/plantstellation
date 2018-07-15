@@ -16,12 +16,11 @@ MonoBehaviour:
     ufoLicenseKey: QWRONE04ei8vLy8vQUFBQUtGbDFNYlcraWthbHVhYXRwVzBreEE4U1crVVRGMTY2WHJDUm5zMUl3OGtheWVTSDFablV4aXM5U28yOGt4bDlmMWYvSzRkVmc5SklMUCtqOGVKMXRmcHdmRGo2NXEwSk14WE9nWGFmR0N4YVEzWWgrU0hiWmdjbUs2WHRXNTJnY3BiYWpvZWtZbDVvNWo1V3NFSkZFdjMzVDZYYnBZNFFvZ1BZMjlIRlZtNHkyU0dSLzZJME9zL1dyK2ZVNFpublU0cjIvTzN0U2J5ZzNkSXN5ZnBwRE95L0hWMjJEMnNLWUQ3R0pPeFpRY3UwMlZWdmxjSHdScFg5TmF2blJBVjRZSWF4L3J5YkZoNHRnRFlnZ2lzcmNWaUlLeGlwSlVqM2hyUmVpdlp0UUVsVGJHRGN3TDBhZnVMMWlzM1RJNU1SQnVsY3pPd1pyckVrNHIvd1JHVlBHdWRnenNoWllhZThoU1k0Z3VoRytzQ2s=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 4
+    maxSimultaneousImageTargets: 6
     maxSimultaneousObjectTargets: 0
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
-    version: 7.2.20
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -58,7 +57,6 @@ MonoBehaviour:
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
