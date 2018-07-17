@@ -3,31 +3,19 @@ guid: 3827fa03e5ada3e48a1276e401411640
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Camera
-    100002: Lamp
-    100004: Yakshini
-    100006: //RootNode
-    100008: Yakshini Baked
-    400000: Camera
-    400002: Lamp
-    400004: Yakshini
-    400006: //RootNode
-    400008: Yakshini Baked
-    2000000: Camera
+    100000: //RootNode
+    100002: Yakshini
+    400000: //RootNode
+    400002: Yakshini
     2100000: Yakshini
-    2100002: No Name
-    2300000: Yakshini
-    2300002: Yakshini Baked
-    2300004: //RootNode
-    3300000: Yakshini
-    3300002: Yakshini Baked
-    3300004: //RootNode
-    4300000: Yakshini Baked
-    4300002: Yakshini
-    10800000: Lamp
+    2300000: //RootNode
+    2300002: Yakshini
+    3300000: //RootNode
+    3300002: Yakshini
+    4300000: Yakshini
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
