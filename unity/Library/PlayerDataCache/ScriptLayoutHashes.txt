@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/meena/Desktop/plantstellation test.apk
+/Users/meena/Documents/GitHub/plantstellation/docs/plantstellation.apk
 SceneListBegin?
 Assets/Scenes/main.unity
 SceneListEnd?
