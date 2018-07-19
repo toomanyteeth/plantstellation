@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 51
+  controlID: 55
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 52
+  controlID: 56
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 113
+  controlID: 57
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.21736644, y: -0.762924, z: 0.32067814, w: -0.51755625}
     speed: 2
-    m_Value: {x: -0.21736641, y: -0.7629239, z: 0.3206781, w: -0.5175562}
+    m_Value: {x: 0.21736644, y: 0.762924, z: -0.32067814, w: 0.51755625}
   m_Size:
     m_Target: 30.128101
     speed: 2
@@ -366,9 +366,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 1c2f0000
+    m_SelectedIDs: 502f0000
     m_LastClickedID: 0
-    m_ExpandedIDs: 42f9ffff00000000a43000001c310000
+    m_ExpandedIDs: f0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,10 +425,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -432.5
-    m_HBaseRangeMax: 432.5
-    m_VBaseRangeMin: -294
-    m_VBaseRangeMax: 294
+    m_HBaseRangeMin: -540
+    m_HBaseRangeMax: 540
+    m_VBaseRangeMin: -960
+    m_VBaseRangeMax: 960
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -447,7 +447,7 @@ MonoBehaviour:
       y: 17
       width: 865
       height: 588
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.30625, y: 0.30625}
     m_Translation: {x: 432.5, y: 294}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -455,12 +455,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -432.5
-      y: -294
-      width: 865
-      height: 588
+      x: -1412.2449
+      y: -960
+      width: 2824.4897
+      height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.30625
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 865, y: 605}
@@ -504,20 +504,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Materials
+    - Assets/UI
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/UI
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Meenakshi\Documents\plantstellation\unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f42c0000
-    m_LastClickedID: 11508
-    m_ExpandedIDs: 00000000ec2b0000a82c0000662d00006a2d0000722e0000542f0000742f0000b6310000b8310000ba310000bc310000be310000c0310000c231000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 95}
+    m_SelectedIDs: 6c2e0000
+    m_LastClickedID: 11884
+    m_ExpandedIDs: 00000000e42b0000a02c0000482d00004c2d0000542e0000362f0000562f0000a6310000a8310000aa310000ac310000ae310000b0310000b231000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -545,7 +545,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ec2b0000a82c0000662d00006a2d0000722e0000542f0000742f0000b6310000b8310000ba310000bc310000be310000c0310000c2310000
+    m_ExpandedIDs: 00000000e42b0000a02c0000482d00004c2d0000542e0000362f0000562f0000a6310000a8310000aa310000ac310000ae310000b0310000b2310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 63}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_DirectoriesAreaWidth: 228
 --- !u!114 &16
