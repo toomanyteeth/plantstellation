@@ -23,6 +23,10 @@
             font-weight: 400;
         }
 
+        h3 {
+            margin: 1em 0 0;
+        }
+
         p {
             margin: 0.6em 0;
         }
@@ -38,6 +42,15 @@
         }
         a:active {
             color: #7444e8;
+        }
+
+        button {
+            background: none;
+            color: inherit;
+            border: none;
+            padding: 0;
+            font: inherit;
+            outline: inherit;
         }
 
         body {
@@ -79,7 +92,23 @@
             width: 4em;
         }
 
+        #shoutouts {
+            display: none;
+        }
+
     </style>
+
+    <script>
+        function toggleShoutouts() {
+            var x = document.getElementById("shoutouts");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                x.scrollIntoView();
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 
 </head>
 
@@ -105,6 +134,12 @@
             <!--<p>For three more plant markers, get the "San Francsico Nighttime Exploits" zine <a href="#">here</a> ✨</p>-->
             <p>See more of my art <a href="http://www.through-the-floor.com" target="_blank">here</a>.</p>
         </p>
+        <a><button onclick="toggleShoutouts()"><h3>shoutouts</h3></button></a>
+        <div id="shoutouts" style="display: none;">
+            <p>Plantstellation was built with <a href="https://unity3d.com/" target="_blank">Unity</a> and uses <a href="https://www.vuforia.com/" target="_blank">Vuforia</a> for AR.</p>
+            <p>I learned basic shader programming with <a href="http://www.alanzucconi.com/2015/06/10/a-gentle-introduction-to-shaders-in-unity3d/" target="_blank">this tutorial series from Alan Zucconi</a>, and I learned about ramp shading and outline shading with <a href="https://lindseyreidblog.wordpress.com/2017/12/19/cel-shader-with-outline-in-unity/" target="_blank">this tutorial from Lindsey Reid</a> and with <a href="https://en.wikibooks.org/wiki/Cg_Programming/Unity/Toon_Shading" target="_blank">Wikibooks</a>.</p>
+            <p>While making this app, I actually did start growing some real plants. Some are thriving and some have passed on. 💖</p>
+        </div>
     </div>
 </body>
 
