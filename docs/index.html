@@ -24,18 +24,32 @@
         }
 
         p {
+            margin: 0.6em 0;
+        }
+
+        a {
+            color: #8655d5;
+        }
+        /*a:visited {
+            color: green;
+        }*/
+        a:hover {
+            color: #a45fcf;
+        }
+        a:active {
+            color: #7444e8;
         }
 
         body {
             font-family: Handwriting1018, monospace;
             font-size: 24pt;
-            font-weight: 600;
+            font-weight: 500;
         }
 
         #content {
-            max-width: 20em;
+            max-width: 30em;
             margin: auto;
-            background-color: #dddddd;
+            padding: 0.5em 2em;
         }
 
         #title {
@@ -48,6 +62,23 @@
             outline: 2px solid black;
         }
 
+        #download-links {
+            text-align: center;
+        }
+
+        .download-link {
+            //width: 5em;
+            text-align: center;
+            display: inline-block;
+            margin: 0.5em 1em;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+        .download-link-image {
+            width: 4em;
+        }
+
     </style>
 
 </head>
@@ -58,7 +89,21 @@
         <img id="cover-image" src="cover-image.jpg" alt="a screenshot of plantstellation">
         <div id="intro">
             <p>Plants can add life and magic to your desk, but growing them can be difficult, so let's add some virtual plants instead...</p>
-            <p>Print and cut out the markers in "printout.pdf", and arrange them in the pot on the printout. Then, install the "plantstellation" app on an Android phone and point it at the markers to see the plants.</p>
+            <p>Print and cut out the markers in "printout.pdf", and arrange them in the pot on the printout. Then, install the "plantstellation.apk" app on an Android phone and point it at the markers to see the plants.</p>
+        </p>
+        <div id="download-links">
+            <a href="/plantstellation printout.pdf"> <div id="printout-download" class="download-link">
+                <img class="download-link-image" src="printout.png" alt="printout download">
+                <div>printout.pdf</div>
+            </div></a>
+            <a href="plantstellation.apk"> <div id="android-app-download" class="download-link">
+                <img class="download-link-image" src="android app.png" alt="android app download">
+                <div>plantstellation.apk</div>
+            </div></a>
+        </div>
+        <div id="outro">
+            <!--<p>For three more plant markers, get the "San Francsico Nighttime Exploits" zine <a href="#">here</a> ✨</p>-->
+            <p>See more of my art <a href="http://www.through-the-floor.com" target="_blank">here</a>.</p>
         </p>
     </div>
 </body>
