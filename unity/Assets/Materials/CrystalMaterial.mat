@@ -143,7 +143,7 @@ Material:
     - _Offset_Z: 0
     - _Outline: 0.025
     - _OutlineDot: 0.25
-    - _OutlineExtrusion: 0.025
+    - _OutlineExtrusion: 0.03
     - _Outline_Width: 100
     - _RimLight: 0
     - _RimLight_FeatherOff: 0
