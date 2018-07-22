@@ -2,15 +2,16 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>plantstellation</title>
-  <meta name="description" content="Download the plantstellation viewing app and marker sheet">
-  <meta name="author" content="Meena Vempaty">
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <title>plantstellation</title>
+    <meta name="description" content="Download the plantstellation viewing app and marker sheet">
+    <meta name="author" content="Meena Vempaty">
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css">
     <style>
 
         @font-face {
@@ -51,6 +52,7 @@
             padding: 0;
             font: inherit;
             outline: inherit;
+            text-decoration: underline;
         }
 
         body {
@@ -92,12 +94,27 @@
             width: 4em;
         }
 
+        .gallery {
+            white-space: nowrap;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            height: 10em;
+            width: 100%;
+            margin: 1.5em auto;
+        }
+
+        .gallery img {
+            height: 100%;
+        }
+
         #shoutouts {
             display: none;
         }
 
     </style>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
     <script>
         function toggleShoutouts() {
             var x = document.getElementById("shoutouts");
@@ -108,6 +125,10 @@
                 x.style.display = "none";
             }
         }
+
+        $("[data-fancybox]").fancybox({
+        	toolbar: false
+        });
     </script>
 
 </head>
@@ -133,11 +154,18 @@
         <div id="outro">
             <!--<p>For three more plant markers, get the "San Francsico Nighttime Exploits" zine <a href="#">here</a> ✨</p>-->
             <p>See more of my art <a href="http://www.through-the-floor.com" target="_blank">here</a>.</p>
-        </p>
+        </div>
+        <div class="gallery">
+            <a data-fancybox="gallery" href="gallery/1.png"><img src="gallery/1.png"></a>
+            <a data-fancybox="gallery" href="gallery/2.png"><img src="gallery/2.png"></a>
+            <a data-fancybox="gallery" href="gallery/3.jpg"><img src="gallery/3.png"></a>
+        </div>
+        <a href="https://github.com/pointyteeth/plantstellation/"><h3>source code</h3></a>
         <a><button onclick="toggleShoutouts()"><h3>shoutouts</h3></button></a>
         <div id="shoutouts" style="display: none;">
             <p>Plantstellation was built with <a href="https://unity3d.com/" target="_blank">Unity</a> and uses <a href="https://www.vuforia.com/" target="_blank">Vuforia</a> for AR.</p>
             <p>I learned basic shader programming with <a href="http://www.alanzucconi.com/2015/06/10/a-gentle-introduction-to-shaders-in-unity3d/" target="_blank">this tutorial series from Alan Zucconi</a>, and I learned about ramp shading and outline shading with <a href="https://lindseyreidblog.wordpress.com/2017/12/19/cel-shader-with-outline-in-unity/" target="_blank">this tutorial from Lindsey Reid</a> and with <a href="https://en.wikibooks.org/wiki/Cg_Programming/Unity/Toon_Shading" target="_blank">Wikibooks</a>.</p>
+            <p>Massive thank you to Nobel for building the LED setup and to JayZ for helping me with the laser cutting for the acrylic background I used when I showed this at Syzygy's Nostalgia show. Check out <a href="https://www.facebook.com/syzygyacademy/" target="_blank">Syzygy here.</a></p>
             <p>While making this app, I actually did start growing some real plants. Some are thriving and some have passed on. 💖</p>
         </div>
     </div>
