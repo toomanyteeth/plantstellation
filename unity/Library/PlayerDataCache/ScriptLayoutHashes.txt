@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/meena/Desktop/plantstellation.apk
+C:/Users/Meenakshi/Google Drive/delete me/plantstellation nostalgia.apk
 SceneListBegin?
 Assets/Scenes/main.unity
 SceneListEnd?
@@ -185,6 +185,7 @@ ad4ede464ae743b4514f752be6cc0a4a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 782155584b486247c2079f380bdd92b5 Assembly-CSharp.dll:.Target
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusController
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -284,4 +285,3 @@ ad4ede464ae743b4514f752be6cc0a4a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 8bb3f0d0e0e6a4e201460935624777a3 Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehaviour
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CameraFocusController
