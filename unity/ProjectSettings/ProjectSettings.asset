@@ -329,32 +329,44 @@ PlayerSettings:
       m_Height: 36
       m_Kind: 0
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: a2e7fe3f7ee5043fdac68f8ceb602ae8, type: 3}
+      - {fileID: 2800000, guid: 78adb1540dd8149b9bb97446b4c3b9f2, type: 3}
       m_Width: 432
       m_Height: 432
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: e6e3009e3a0d941f483f49dfbf1c1445, type: 3}
+      - {fileID: 2800000, guid: 334306d9dc1624b8d832fc631853ec94, type: 3}
       m_Width: 324
       m_Height: 324
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: e7e1fc1ad702343428df3ed1a07e19aa, type: 3}
+      - {fileID: 2800000, guid: baa03459bfb504346b27c55b1e25841b, type: 3}
       m_Width: 216
       m_Height: 216
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: f03c26596852a463f847a56ff582ec45, type: 3}
+      - {fileID: 2800000, guid: cfe8a04ff03bf4b80be7ae38af9ae46a, type: 3}
       m_Width: 162
       m_Height: 162
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 2ca36dc64622e409aa04656e8fb1b53c, type: 3}
+      - {fileID: 2800000, guid: 1c4ea621e8ad44baebe6fe15749fe4bf, type: 3}
       m_Width: 108
       m_Height: 108
       m_Kind: 2
       m_SubKind: 
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 0801eee82fe5b4299a2527ef55894a23, type: 3}
+      - {fileID: 2800000, guid: 802d26b25de6e4c4986ae88b629d7fb2, type: 3}
       m_Width: 81
       m_Height: 81
       m_Kind: 2
