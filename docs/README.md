@@ -4,7 +4,7 @@
 
 Plants can add life and magic to your desk, but growing them can be difficult, so let's add some virtual plants instead...
 
-Plantstellation is an AR toy for arranging plants. The mobile app and markers can be downloaded [here](http://pointyteeth.github.io/plantstellation).
+Plantstellation is an AR toy for arranging plants. The mobile app and markers can be downloaded [here](http://toomanyteeth.github.io/plantstellation).
 
 #### shoutouts
 
